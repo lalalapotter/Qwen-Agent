@@ -35,6 +35,7 @@ from .user_agent import UserAgent
 from .virtual_memory_agent import VirtualMemoryAgent
 from .write_from_scratch import WriteFromScratch
 from .reflection import Reflection
+from .CVE_Manager import CVE_Manager
 
 __all__ = [
     'Agent',
@@ -58,4 +59,5 @@ __all__ = [
     'DialogueRetrievalAgent',
     'TIRMathAgent',
     'Reflection',
+    'CVE_Manager'
 ]
